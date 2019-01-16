@@ -1,0 +1,4 @@
+all:
+	nvcc tr(A)xA_in_parallel.cu -o tr(A)xA_in_parallel -arch=sm_20
+clean:
+	rm tr(A)xA_in_parallel
